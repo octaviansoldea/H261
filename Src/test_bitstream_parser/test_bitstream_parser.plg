@@ -1,0 +1,456 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libh261common - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libh261common.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\libh261common\src\memory_bitstream_reader.cpp"
+"D:\H261\libh261common\src\file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\non_seek_file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\bitstream_reader.cpp"
+"D:\H261\libh261common\src\picture_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\gob_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\mb_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\bitstream_parser.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDA.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDB.tmp" with contents
+[
+/nologo /out:"Release\libh261common.lib" 
+.\Release\memory_bitstream_reader.obj
+.\Release\file_bitstream_reader.obj
+.\Release\non_seek_file_bitstream_reader.obj
+.\Release\bitstream_reader.obj
+.\Release\picture_layer_bitstream_parser.obj
+.\Release\gob_layer_bitstream_parser.obj
+.\Release\mb_layer_bitstream_parser.obj
+.\Release\bitstream_parser.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDB.tmp"
+<h3>Output Window</h3>
+Compiling...
+memory_bitstream_reader.cpp
+file_bitstream_reader.cpp
+non_seek_file_bitstream_reader.cpp
+bitstream_reader.cpp
+picture_layer_bitstream_parser.cpp
+gob_layer_bitstream_parser.cpp
+mb_layer_bitstream_parser.cpp
+bitstream_parser.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libh261common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: libh261common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libh261common.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\libh261common\src\memory_bitstream_reader.cpp"
+"D:\H261\libh261common\src\file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\non_seek_file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\bitstream_reader.cpp"
+"D:\H261\libh261common\src\picture_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\gob_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\mb_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\bitstream_parser.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDC.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDD.tmp" with contents
+[
+/nologo /out:"Debug\libh261common.lib" 
+.\Debug\memory_bitstream_reader.obj
+.\Debug\file_bitstream_reader.obj
+.\Debug\non_seek_file_bitstream_reader.obj
+.\Debug\bitstream_reader.obj
+.\Debug\picture_layer_bitstream_parser.obj
+.\Debug\gob_layer_bitstream_parser.obj
+.\Debug\mb_layer_bitstream_parser.obj
+.\Debug\bitstream_parser.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDD.tmp"
+<h3>Output Window</h3>
+Compiling...
+memory_bitstream_reader.cpp
+file_bitstream_reader.cpp
+non_seek_file_bitstream_reader.cpp
+bitstream_reader.cpp
+picture_layer_bitstream_parser.cpp
+gob_layer_bitstream_parser.cpp
+mb_layer_bitstream_parser.cpp
+bitstream_parser.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libh261common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: libh261dec - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+libh261dec.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: libh261dec - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+libh261dec.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: libvlcfieldmgr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libvlcfieldmgr.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\libvlcfieldmgr\vlc_field_mgr.cpp"
+"D:\H261\libvlcfieldmgr\vlc_targets.cpp"
+"D:\H261\libvlcfieldmgr\vlc_tree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDE.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\libvlcfieldmgr.lib"  .\Release\vlc_field_mgr.obj .\Release\vlc_targets.obj .\Release\vlc_tree.obj "
+<h3>Output Window</h3>
+Compiling...
+vlc_field_mgr.cpp
+vlc_targets.cpp
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(529) : warning C4101: 'nRun' : unreferenced local variable
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(540) : warning C4700: local variable 'nI' used without having been initialized
+vlc_tree.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libvlcfieldmgr.lib - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: libvlcfieldmgr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libvlcfieldmgr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\libvlcfieldmgr\vlc_field_mgr.cpp"
+"D:\H261\libvlcfieldmgr\vlc_targets.cpp"
+"D:\H261\libvlcfieldmgr\vlc_tree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPDF.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\libvlcfieldmgr.lib"  .\Debug\vlc_field_mgr.obj .\Debug\vlc_targets.obj .\Debug\vlc_tree.obj "
+<h3>Output Window</h3>
+Compiling...
+vlc_field_mgr.cpp
+vlc_targets.cpp
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(73) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(73) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(529) : warning C4101: 'nRun' : unreferenced local variable
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(540) : warning C4700: local variable 'nI' used without having been initialized
+d:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+vlc_tree.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libvlcfieldmgr.lib - 0 error(s), 6 warning(s)
+<h3>
+--------------------Configuration: libh261common - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libh261common.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\libh261common\src\memory_bitstream_reader.cpp"
+"D:\H261\libh261common\src\file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\non_seek_file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\bitstream_reader.cpp"
+"D:\H261\libh261common\src\picture_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\gob_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\mb_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\bitstream_parser.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE0.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE1.tmp" with contents
+[
+/nologo /out:"Release\libh261common.lib" 
+.\Release\memory_bitstream_reader.obj
+.\Release\file_bitstream_reader.obj
+.\Release\non_seek_file_bitstream_reader.obj
+.\Release\bitstream_reader.obj
+.\Release\picture_layer_bitstream_parser.obj
+.\Release\gob_layer_bitstream_parser.obj
+.\Release\mb_layer_bitstream_parser.obj
+.\Release\bitstream_parser.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE1.tmp"
+<h3>Output Window</h3>
+Compiling...
+memory_bitstream_reader.cpp
+file_bitstream_reader.cpp
+non_seek_file_bitstream_reader.cpp
+bitstream_reader.cpp
+picture_layer_bitstream_parser.cpp
+gob_layer_bitstream_parser.cpp
+mb_layer_bitstream_parser.cpp
+bitstream_parser.cpp
+Creating library...
+<h3>
+--------------------Configuration: test_file_bitstream_reader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\libh261common\include" /I "..\libh261common\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/test_file_bitstream_reader.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\test_file_bitstream_reader\test_file_bitstream_reader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE2.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/test_file_bitstream_reader.pdb" /machine:I386 /out:"Release/test_file_bitstream_reader.exe" 
+.\Release\test_file_bitstream_reader.obj
+\H261\libh261common\Release\libh261common.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE3.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_file_bitstream_reader.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test_file_bitstream_reader.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: libh261common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libh261common.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\libh261common\src\memory_bitstream_reader.cpp"
+"D:\H261\libh261common\src\file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\non_seek_file_bitstream_reader.cpp"
+"D:\H261\libh261common\src\bitstream_reader.cpp"
+"D:\H261\libh261common\src\picture_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\gob_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\mb_layer_bitstream_parser.cpp"
+"D:\H261\libh261common\src\bitstream_parser.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE5.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE6.tmp" with contents
+[
+/nologo /out:"Debug\libh261common.lib" 
+.\Debug\memory_bitstream_reader.obj
+.\Debug\file_bitstream_reader.obj
+.\Debug\non_seek_file_bitstream_reader.obj
+.\Debug\bitstream_reader.obj
+.\Debug\picture_layer_bitstream_parser.obj
+.\Debug\gob_layer_bitstream_parser.obj
+.\Debug\mb_layer_bitstream_parser.obj
+.\Debug\bitstream_parser.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE6.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+memory_bitstream_reader.cpp
+file_bitstream_reader.cpp
+non_seek_file_bitstream_reader.cpp
+bitstream_reader.cpp
+picture_layer_bitstream_parser.cpp
+gob_layer_bitstream_parser.cpp
+mb_layer_bitstream_parser.cpp
+bitstream_parser.cpp
+Creating library...
+<h3>
+--------------------Configuration: test_file_bitstream_reader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\libh261common\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/test_file_bitstream_reader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\test_file_bitstream_reader\test_file_bitstream_reader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE7.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/test_file_bitstream_reader.pdb" /debug /machine:I386 /out:"Debug/test_file_bitstream_reader.exe" /pdbtype:sept 
+.\Debug\test_file_bitstream_reader.obj
+\H261\libh261common\Debug\libh261common.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPE8.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_file_bitstream_reader.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test_file_bitstream_reader.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: test_memory_bitstream_reader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\libh261common\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/test_memory_bitstream_reader.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\test_memory_bitstream_reader\test_memory_bitstream_reader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/test_memory_bitstream_reader.pdb" /machine:I386 /out:"Release/test_memory_bitstream_reader.exe" 
+.\Release\test_memory_bitstream_reader.obj
+\H261\libh261common\Release\libh261common.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_memory_bitstream_reader.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test_memory_bitstream_reader.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: test_memory_bitstream_reader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPED.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\libh261common\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/test_memory_bitstream_reader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\test_memory_bitstream_reader\test_memory_bitstream_reader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPED.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPEE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/test_memory_bitstream_reader.pdb" /debug /machine:I386 /out:"Debug/test_memory_bitstream_reader.exe" /pdbtype:sept 
+.\Debug\test_memory_bitstream_reader.obj
+\H261\libh261common\Debug\libh261common.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPEE.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_memory_bitstream_reader.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test_memory_bitstream_reader.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: libvlcfieldmgr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libvlcfieldmgr.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\libvlcfieldmgr\vlc_field_mgr.cpp"
+"D:\H261\libvlcfieldmgr\vlc_targets.cpp"
+"D:\H261\libvlcfieldmgr\vlc_tree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF0.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\libvlcfieldmgr.lib"  .\Release\vlc_field_mgr.obj .\Release\vlc_targets.obj .\Release\vlc_tree.obj "
+<h3>Output Window</h3>
+Compiling...
+vlc_field_mgr.cpp
+vlc_targets.cpp
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(529) : warning C4101: 'nRun' : unreferenced local variable
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(540) : warning C4700: local variable 'nI' used without having been initialized
+vlc_tree.cpp
+Creating library...
+<h3>
+--------------------Configuration: test_vlc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I ".\..\libvlcfieldmgr" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/test_vlc.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\H261\test_vlc\test_vlc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF1.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/test_vlc.pdb" /machine:I386 /out:"Release/test_vlc.exe" 
+.\Release\test_vlc.obj
+\H261\libvlcfieldmgr\Release\libvlcfieldmgr.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF2.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_vlc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test_vlc.exe - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: libvlcfieldmgr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libvlcfieldmgr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\libvlcfieldmgr\vlc_field_mgr.cpp"
+"D:\H261\libvlcfieldmgr\vlc_targets.cpp"
+"D:\H261\libvlcfieldmgr\vlc_tree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF4.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\libvlcfieldmgr.lib"  .\Debug\vlc_field_mgr.obj .\Debug\vlc_targets.obj .\Debug\vlc_tree.obj "
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+vlc_field_mgr.cpp
+vlc_targets.cpp
+vlc_tree.cpp
+Creating library...
+<h3>
+--------------------Configuration: test_vlc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\..\libvlcfieldmgr" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/test_vlc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\H261\test_vlc\test_vlc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF5.tmp" 
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/test_vlc.pdb" /debug /machine:I386 /out:"Debug/test_vlc.exe" /pdbtype:sept 
+.\Debug\test_vlc.obj
+\H261\libvlcfieldmgr\Debug\libvlcfieldmgr.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSPF6.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_vlc.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/test_vlc.bsc"  .\Debug\test_vlc.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+test_vlc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

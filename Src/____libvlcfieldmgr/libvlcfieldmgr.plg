@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libvlcfieldmgr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\octavian\LOCALS~1\Temp\RSP5C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libvlcfieldmgr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\H261\libvlcfieldmgr\vlc_tree.cpp"
+"D:\H261\libvlcfieldmgr\vlc_field_mgr.cpp"
+"D:\H261\libvlcfieldmgr\vlc_targets.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\octavian\LOCALS~1\Temp\RSP5C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\libvlcfieldmgr.lib"  .\Debug\vlc_tree.obj .\Debug\vlc_field_mgr.obj .\Debug\vlc_targets.obj "
+<h3>Output Window</h3>
+Compiling...
+vlc_tree.cpp
+vlc_field_mgr.cpp
+vlc_targets.cpp
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(73) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(73) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(529) : warning C4101: 'nRun' : unreferenced local variable
+D:\H261\libvlcfieldmgr\vlc_targets.cpp(540) : warning C4700: local variable 'nI' used without having been initialized
+d:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+Creating library...
+
+
+
+<h3>Results</h3>
+libvlcfieldmgr.lib - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

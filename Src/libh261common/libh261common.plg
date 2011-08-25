@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libh261common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\emil\LOCALS~1\Temp\RSP16F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libh261common.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\home\emil\HACKING\h261\libh261common\src\bitstream_reader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\emil\LOCALS~1\Temp\RSP16F.tmp" 
+Creating temporary file "C:\DOCUME~1\emil\LOCALS~1\Temp\RSP170.tmp" with contents
+[
+/nologo /out:"Debug\libh261common.lib" 
+.\Debug\memory_bitstream_reader.obj
+.\Debug\file_bitstream_reader.obj
+.\Debug\bitstream_parser.obj
+.\Debug\gob_layer_bitstream_parser.obj
+.\Debug\mb_layer_bitstream_parser.obj
+.\Debug\picture_layer_bitstream_parser.obj
+.\Debug\non_seek_file_bitstream_reader.obj
+.\Debug\bitstream_reader.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\emil\LOCALS~1\Temp\RSP170.tmp"
+<h3>Output Window</h3>
+Compiling...
+bitstream_reader.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libh261common.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
